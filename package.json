@@ -1,22 +1,32 @@
 {
-  "name": "sample_server",
+  "name": "INST377_Food_Inspection",
   "version": "1.0.0",
-  "description": "A sample webserver to pull UMD.io data and push it to a local page",
-  "main": "server.js",
+  "description": "Restaurant food inspection heat mapping and tracking software built on JS/Leaflet. Map-based web app of Prince George's County.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alex Leitch",
-  "license": "CC-BY-SA-4.0",
-  "dependencies": {
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcantillano/INST377_Food_Inspection.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcantillano/INST377_Food_Inspection/issues"
+  },
+  "homepage": "https://github.com/bcantillano/INST377_Food_Inspection#readme",
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet.markercluster": "^1.4.1"
   }
 }
