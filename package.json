@@ -4,7 +4,7 @@
   "description": "Restaurant food inspection heat mapping and tracking software built on JS/Leaflet. Map-based web app of Prince George's County.",
   "main": "server.js",
   "engines": {
-    "node": "12.12.0"
+    "node": "12.13.1"
   },
   "directories": {
     "doc": "docs"
